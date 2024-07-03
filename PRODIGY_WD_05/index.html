@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div id="mainContainer">
+    <div id="right">
+      <div id="rightOne">
+        <div id="loc">
+          <i id="log" class="fas fa-map-marker-alt"></i>
+          <p id="cityName">Noida</p>
+        </div>
+        <div> <i class="fas fa-cloud-sun-rain"></i></div>
+        <div id="sel"><span id="temp">29</span>&#176;C</div>
+        <div id="Rightdate" class="Rightdate">Saturday, 10 March </div>
+      </div>
+      <div id="rightTop">
+        <div id="first">Humidity &nbsp :&nbsp&nbsp&nbsp<span id="humidity">34</span></div>
+        <div>Pressure &nbsp :&nbsp&nbsp&nbsp<span id="pressure">1010</span></div>
+      </div>
+      <div id="rightTop2">
+        <div><b>💨 </b>Wind Speed &nbsp :&nbsp&nbsp&nbsp<span id="wind">4.16</span></div>
+        <div><b>🌅 </b>Sun Rise &nbsp :&nbsp&nbsp&nbsp<span id="rise">6:23 am</span></div>
+        <div><b>🌄 </b>Sun Set &nbsp :&nbsp&nbsp&nbsp<span id="set">6:00 am</span></div>
+      </div>
+    </div>
+    <div id="left">
+      <input type="text" id="city" placeholder="Enter City or Country Name">
+      <button id="Search" onclick="getWeather()">Search</button>
+      <div id="leftOne">
+        <div id="timeDiv">
+          <div id="time" class="time">
+            10:35 <span id="ampm">AM</span>
+          </div>
+          <div id="date" class="date">
+            Thursday, 10 March
+          </div>
+        </div>
+        <div id="btns">
+          <button id="night" onclick="nightFun()">Night</button>
+          <button id="day" onclick="dayFun()">Day</button>
+        </div>
+      </div>
+      <div id="days">
+        <div>
+          <p>Sun</p>
+          <i class="fas fa-cloud-sun-rain"></i>
+          <div>Max-33&#176;C</div>
+          <div>Min-23&#176;C</div>
+        </div>
+        <div>
+          <p>Mon</p>
+          <i class="fas fa-bolt"></i>
+          <div>Max-34&#176;C</div>
+          <div>Min-23&#176;C</div>
+        </div>
+        <div>
+          <p>Tue</p>
+          <i class="fas fa-cloud-moon"></i>
+          <div>Max-29&#176;C</div>
+          <div>Min-23&#176;C</div>
+        </div>
+        <div>
+          <p>Wed</p>
+          <i class="fas fa-cloud"></i>
+          <div>Max-36&#176;C</div>
+          <div>Min-25&#176;C</div>
+        </div>
+        <div>
+          <p>Thur</p>
+          <i class="fas fa-cloud-sun-rain"></i>
+          <div>Max-32&#176;C</div>
+          <div>Min-29&#176;C</div>
+        </div>
+        <div>
+          <p>Fri</p>
+          <i class="fas fa-bolt"></i>
+          <div>Max-33&#176;C</div>
+          <div>Min-30&#176;C</div>
+        </div>
+      </div>
+      <div id="map">
+        <iframe id="map1" src="https://maps.google.com/maps?q=noida&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+  integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./index.js"></script>
+
+</html>

@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins';
+}
+
+body {
+  background-image: url("weatherpic\ -\ Copy.jpg");
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+}
+
+#mainContainer {
+  width: 75%;
+  height: 600px;
+  background-color: #4c76774b;
+  color: #fff;
+  margin: auto;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.26);
+}
+
+#left {
+  width: 70%;
+  height: 100%;
+  color: #fff;
+
+}
+
+#city {
+  margin-left: 130px;
+  width: 400px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-weight: lighter;
+  padding-left: 20px;
+  border: none;
+  border: 1px solid rgb(71, 71, 71);
+}
+
+#Search {
+  padding: 3px 10px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 900;
+  background-color: teal;
+  color: white;
+
+}
+
+#leftOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  height: 100px;
+  margin-top: 25px;
+
+
+}
+
+#leftOne>div:first-child {
+  width: 40%;
+  height: 80%;
+}
+
+
+#leftOne>div:last-child {
+  width: 20%;
+  height: 60%;
+}
+
+#timeDiv {
+  line-height: 40px;
+}
+
+#time {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+#ampm {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#date {
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+#right {
+  width: 30%;
+  height: 100%;
+}
+
+#day {
+  padding: 5px 12px;
+  margin: 10px 0px 10px 0px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+#gmap_canvas {
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+#night {
+  padding: 5px 8px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+
+}
+
+#days {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#days>div {
+  width: 15%;
+  height: 90%;
+  text-align: center;
+  margin-right: 3px;
+  border: .5px solid rgb(97, 94, 94);
+  background-color: rgb(65, 64, 64);
+  border-radius: 5px;
+}
+
+
+#icon {
+  width: 50px;
+  height: 50px;
+}
+
+#days div p {
+  margin-top: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#days div img {
+  margin-top: -10px;
+  width: 60px;
+  height: 60px;
+}
+
+#days div {
+  color: white;
+}
+
+#days div i {
+  color: yellow;
+  font-size: 35px;
+}
+
+#wImg {
+  width: 150px;
+  height: 150px;
+  margin-top: -30px;
+}
+
+#curDay {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#cals {
+  margin-top: -12px;
+  color: white;
+}
+
+#Ncals {
+  color: white;
+}
+
+#rightOne {
+  width: 80%;
+  height: 300px;
+  margin: 30px 0px 0px 30px;
+  border-radius: 20px;
+  background-color: #1a395c;
+  color: white;
+  text-align: center;
+}
+
+#loc {
+  display: flex;
+}
+
+#loc>p {
+  margin: 20px 0px 0px 5px;
+  color: yellow;
+  font-weight: 900;
+}
+
+#log {
+  font-size: 15px;
+  margin: 25px 0px 0px 20px;
+}
+
+#rightOne>div:nth-child(2) i {
+  font-size: 70px;
+  margin-top: 30px;
+
+}
+
+#temp {
+  font-size: 60px;
+  font-weight: 900;
+  margin-top: -38px;
+  font-size: 60px;
+}
+
+#sel {
+  font-size: 45px;
+  font-weight: 600;
+
+}
+
+#o {
+  font-size: 30px;
+}
+
+#Rightdate {
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+#rightTop {
+  width: 80%;
+  height: 12%;
+  margin: auto;
+  background-color: #1a395c;
+  color: white;
+  margin-top: 20px;
+  font-weight: 400;
+  opacity: .9;
+  border-radius: 10px;
+}
+
+#rightTop2 {
+
+  width: 80%;
+  height: 15%;
+  margin: auto;
+  background-color: #1a395c;
+  color: white;
+  margin-top: 10px;
+  font-weight: 400;
+  opacity: .9;
+  border-radius: 10px;
+
+}
+
+#rightTop2>div {
+  margin-left: 20px;
+}
+
+#rightTop2>div:nth-child(1) {
+  padding-top: 10px;
+}
+
+#rightTop>div {
+  margin-left: 20px;
+}
+
+#rightTop>div:nth-child(1) {
+  padding-top: 10px;
+}
+
+#map1 {
+  height: 220px;
+  width: 650px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
