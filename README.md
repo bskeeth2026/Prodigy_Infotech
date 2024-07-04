@@ -26,6 +26,18 @@ Display: Shows the elapsed time in a user-friendly format (e.g., hours:minutes:s
 
 Technologies Used: HTML, CSS, Javascript
 ## Project 3 - Tic-Tac-Toe Web application
+![xogamepic](https://github.com/bskeeth2026/Prodigy_Infotech/assets/155647814/b0506067-34eb-4734-aace-08ac66063cc8)
+Game Rules:
+
+The game is played on a grid that's 3 squares by 3 squares.
+
+Player 1 is 'X' and Player 2 (or the computer) is 'O'. Players take turns putting their marks in empty squares.
+
+The first player to get 3 of their marks in a row (up, down, across, or diagonally) is the winner.
+
+If all 9 squares are full and no player has 3 marks in a row, the game is a draw.
+
+Technologies Used: HTML, CSS, Javascript
 ## Project 4 - Personal portfolio website
 ## Project 5 - Weather App
 ![image](https://github.com/bskeeth2026/Prodigy_Infotech/assets/155647814/72541a18-6f2f-4442-8acf-d8fceeefa5ff)
