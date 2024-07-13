@@ -39,6 +39,22 @@ If all 9 squares are full and no player has 3 marks in a row, the game is a draw
 
 Technologies Used: HTML, CSS, Javascript
 ## Project 4 - Personal portfolio website
+![image](https://github.com/user-attachments/assets/f9106669-ae0d-4afc-927e-c529b41ce140)
+
+Key Features:
+
+Home: Captivating headline, professional photo, summary of skills.
+
+About: Detailed background, education, and professional experience.
+
+Projects: Highlights of key projects with tech used and links.
+
+Skills: List of technical skills and expertise.
+
+Contact: Ways to get in touch.
+
+Technologies Used: HTML, CSS, Javascript
+
 ## Project 5 - Weather App
 ![image](https://github.com/bskeeth2026/Prodigy_Infotech/assets/155647814/72541a18-6f2f-4442-8acf-d8fceeefa5ff)
 
